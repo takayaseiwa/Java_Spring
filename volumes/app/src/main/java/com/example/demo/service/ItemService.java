@@ -29,6 +29,7 @@ public class ItemService {
 	}
     /**
      * データ一覧処理
+     * コントローラー側でItemFormを使いたいので、リストとfor文でItemEntityの情報をItemFormに格納する 
      * @return
      */
 	public List<ItemForm> findAll() {
@@ -46,6 +47,7 @@ public class ItemService {
 	}
 	/**
 	 * idを基にデータを参照する処理
+	 * ItemEntityの中のデータをItemFormの中に格納する
 	 * @param id
 	 * @return
 	 */
