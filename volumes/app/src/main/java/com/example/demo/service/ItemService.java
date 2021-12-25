@@ -29,7 +29,7 @@ public class ItemService {
 	}
     /**
      * データ一覧処理
-     * コントローラー側でItemFormを使いたいので、リストとfor文でItemEntityの情報をItemFormに格納する 
+     * コントローラー側でItemFormを使いたいので、Listとfor文でItemEntityの情報をItemFormに格納する 
      * @return
      */
 	public List<ItemForm> findAll() {
